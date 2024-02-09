@@ -1,0 +1,17 @@
+C:\Users\OAA\source\repos\OAA-NET\OAA-NET\obj\Debug\net8.0-windows\OAApack.Form1.resources
+C:\Users\OAA\source\repos\OAA-NET\OAA-NET\obj\Debug\net8.0-windows\OAA-NET.csproj.GenerateResource.cache
+C:\Users\OAA\source\repos\OAA-NET\OAA-NET\obj\Debug\net8.0-windows\OAA-NET.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OAA\source\repos\OAA-NET\OAA-NET\obj\Debug\net8.0-windows\OAA-NET.AssemblyInfoInputs.cache
+C:\Users\OAA\source\repos\OAA-NET\OAA-NET\obj\Debug\net8.0-windows\OAA-NET.AssemblyInfo.cs
+C:\Users\OAA\source\repos\OAA-NET\OAA-NET\obj\Debug\net8.0-windows\OAA-NET.csproj.CoreCompileInputs.cache
+C:\Users\OAA\source\repos\OAA-NET\OAA-NET\bin\Debug\net8.0-windows\OAA-NET.exe
+C:\Users\OAA\source\repos\OAA-NET\OAA-NET\bin\Debug\net8.0-windows\OAA-NET.deps.json
+C:\Users\OAA\source\repos\OAA-NET\OAA-NET\bin\Debug\net8.0-windows\OAA-NET.runtimeconfig.json
+C:\Users\OAA\source\repos\OAA-NET\OAA-NET\bin\Debug\net8.0-windows\OAA-NET.dll
+C:\Users\OAA\source\repos\OAA-NET\OAA-NET\bin\Debug\net8.0-windows\OAA-NET.pdb
+C:\Users\OAA\source\repos\OAA-NET\OAA-NET\obj\Debug\net8.0-windows\OAA-NET.dll
+C:\Users\OAA\source\repos\OAA-NET\OAA-NET\obj\Debug\net8.0-windows\refint\OAA-NET.dll
+C:\Users\OAA\source\repos\OAA-NET\OAA-NET\obj\Debug\net8.0-windows\OAA-NET.pdb
+C:\Users\OAA\source\repos\OAA-NET\OAA-NET\obj\Debug\net8.0-windows\OAA-NET.genruntimeconfig.cache
+C:\Users\OAA\source\repos\OAA-NET\OAA-NET\obj\Debug\net8.0-windows\ref\OAA-NET.dll
+C:\Users\OAA\source\repos\OAA-NET\OAA-NET\obj\Debug\net8.0-windows\OAA-pack.Properties.Resources.resources

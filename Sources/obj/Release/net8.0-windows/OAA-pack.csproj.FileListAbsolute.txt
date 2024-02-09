@@ -1,0 +1,17 @@
+C:\Users\OAA\source\repos\OAA-NET\OAA-NET\bin\Release\net8.0-windows\OAA-pack.exe
+C:\Users\OAA\source\repos\OAA-NET\OAA-NET\bin\Release\net8.0-windows\OAA-pack.deps.json
+C:\Users\OAA\source\repos\OAA-NET\OAA-NET\bin\Release\net8.0-windows\OAA-pack.runtimeconfig.json
+C:\Users\OAA\source\repos\OAA-NET\OAA-NET\bin\Release\net8.0-windows\OAA-pack.dll
+C:\Users\OAA\source\repos\OAA-NET\OAA-NET\bin\Release\net8.0-windows\OAA-pack.pdb
+C:\Users\OAA\source\repos\OAA-NET\OAA-NET\obj\Release\net8.0-windows\OAApack.Form1.resources
+C:\Users\OAA\source\repos\OAA-NET\OAA-NET\obj\Release\net8.0-windows\OAA-pack.Properties.Resources.resources
+C:\Users\OAA\source\repos\OAA-NET\OAA-NET\obj\Release\net8.0-windows\OAA-pack.csproj.GenerateResource.cache
+C:\Users\OAA\source\repos\OAA-NET\OAA-NET\obj\Release\net8.0-windows\OAA-pack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OAA\source\repos\OAA-NET\OAA-NET\obj\Release\net8.0-windows\OAA-pack.AssemblyInfoInputs.cache
+C:\Users\OAA\source\repos\OAA-NET\OAA-NET\obj\Release\net8.0-windows\OAA-pack.AssemblyInfo.cs
+C:\Users\OAA\source\repos\OAA-NET\OAA-NET\obj\Release\net8.0-windows\OAA-pack.csproj.CoreCompileInputs.cache
+C:\Users\OAA\source\repos\OAA-NET\OAA-NET\obj\Release\net8.0-windows\OAA-pack.dll
+C:\Users\OAA\source\repos\OAA-NET\OAA-NET\obj\Release\net8.0-windows\refint\OAA-pack.dll
+C:\Users\OAA\source\repos\OAA-NET\OAA-NET\obj\Release\net8.0-windows\OAA-pack.pdb
+C:\Users\OAA\source\repos\OAA-NET\OAA-NET\obj\Release\net8.0-windows\OAA-pack.genruntimeconfig.cache
+C:\Users\OAA\source\repos\OAA-NET\OAA-NET\obj\Release\net8.0-windows\ref\OAA-pack.dll
