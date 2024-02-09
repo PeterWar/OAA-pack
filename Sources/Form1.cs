@@ -17,11 +17,11 @@ namespace OAApack
         {
             InitializeComponent();
             this.Text = "OAA-pack";
-            toolTip1.SetToolTip(this.chkIncludeSubdirectories, "Recursively run the operation for the selected directory and subdirectories");
-            toolTip1.SetToolTip(this.chkDeleteOriginal, "Delete the original files after the operations are performed");
-            toolTip1.SetToolTip(this.chkHcompress, "Hcompress produces slightly better compression than the default method Rice (about 3% smaller),\nbut for most applications this small gain is not worth the much greater CPU times (aprox 3X)\nrequired to compress and uncompress the images with Hcompress.");
-            toolTip1.SetToolTip(this.chkIRAF, "Enable IRAF pixel list compression algorithm.\nThis can only be applied to images  whose pixel values all lie in the range 0 to 224 (16777216).");
-            toolTip1.SetToolTip(this.numericUpDown1, "Specify how much time to wait (in seconds) before aborting each compression/decompression operation.\nLower values might lead to unintended behavior.");
+            toolTip1.SetToolTip(this.chkIncludeSubdirectories, "Ejecutar la operación de manera recursiva en el directorio seleccionado y sus subdirectorios");
+            toolTip1.SetToolTip(this.chkDeleteOriginal, "Eliminar los archivos originales después de realizar las operaciones.");
+            toolTip1.SetToolTip(this.chkHcompress, "Hcompress produce una compresión ligeramente mejor que el método predeterminado Rice (aproximadamente un 3% menor),\n pero para la mayoría de las aplicaciones, esta pequeña ganancia no compensa los tiempos de CPU mucho mayores (aproximadamente 3X)\nnecesarios para comprimir y descomprimir las imágenes con Hcompress.");
+            toolTip1.SetToolTip(this.chkIRAF, "Habilitar el algoritmo de compresión de lista de píxeles de IRAF.\nSolo se puede aplicar a imágenes cuyos valores de píxeles estén en el rango de 0 a 224 (16777216).");
+            toolTip1.SetToolTip(this.numericUpDown1, "Especificar cuánto tiempo esperar (en segundos) antes de abortar cada operación de compresión/descompresión.\nValores más bajos podrían conducir a comportamientos no deseados.");
         }
 
         private void button1_Click(object sender, EventArgs e)

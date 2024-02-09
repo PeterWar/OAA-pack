@@ -1,35 +1,36 @@
-Overview
-OAA Pack is a specialized software tool created by Pere Guerra (Observatori Astronòmic Albanyà) and designed for the compression and decompression of FIT files, offering a user-friendly graphical interface. It harnesses the power of Fpack, Funpack, and Gzip utilities to deliver advanced compression methods.
+Visión General
+OAA Pack es una herramienta de software especializada creada por Pere Guerra (Observatori Astronòmic Albanyà) diseñada para la compresión y descompresión de archivos FIT, ofreciendo una interfaz gráfica amigable al usuario. Utiliza el poder de las utilidades Fpack, Funpack y Gzip para ofrecer métodos avanzados de compresión.
 
-Features
-Compression & Decompression: Facilitates FITS file compression using Fpack and decompression using Funpack
-Advanced Compression Options: Incorporates HCompress and IRAF pixel list compression techniques for superior efficiency.
-Lossless Compression: Designed for lossless compression. In scenarios where Fpack's lossy compression is the only option (e.g., with 32-bit files), GZIP is employed as an alternative.
-User-Friendly Interface: Streamlines file handling through an intuitive interface.
-Customizable Settings: Users can include subdirectories, opt for original file deletion post-compression, and filter files by keywords.
-Adaptable Timeout: Customize the timeout duration for each operation to suit different processing needs.
+Características
+Compresión y Descompresión: Facilita la compresión de archivos FITS usando Fpack y la descompresión usando Funpack.
+Opciones Avanzadas de Compresión: Incorpora técnicas de compresión HCompress y de lista de píxeles IRAF para una mayor eficiencia.
+Compresión sin Pérdida: Diseñado para la compresión sin pérdida. En escenarios donde la única opción es la compresión con pérdida de Fpack (por ejemplo, con archivos de 32 bits), se utiliza GZIP como alternativa.
+Interfaz Amigable: Simplifica el manejo de archivos a través de una interfaz intuitiva.
+Configuración Personalizable: Incluye opciones para incluir subdirectorios, optar por la eliminación de archivos originales después de la compresión y filtrar archivos por palabras clave.
+Timeout Adaptable: Personaliza la duración del timeout para cada operación según las necesidades de procesamiento.
 
-Installation
-Unpack
-Unpack the contents of the OAA Pack distribution package into your preferred directory.
-Run the executable file to launch the application.
-Usage
-Select Operation: Choose between compression and decompression options.
-Configure Settings: Include subdirectories, decide on original file deletion, and select compression methods as required.
-Choose Folder: Navigate and select the folder containing the FITS files.
-Start Operation: Initiate the compression or decompression process.
-Disclaimer and License
-This software is provided 'as-is', without any express or implied warranty. The author shall not be liable for any damages arising from the use of this software.
+Instalación
+Desempaque el contenido del paquete de distribución de OAA Pack en el directorio de su preferencia.
+Ejecute el archivo ejecutable para iniciar la aplicación.
 
-OAA Pack is open-source, distributed under the Attribution-ShareAlike (CC BY-SA) license. Redistribution, commercial and non-commercial, is allowed provided appropriate credit is given to the original author. It's crucial to respect the licenses of Fpack, Funpack, and Gzip utilities.
+Uso
+Seleccione la Operación: Elija entre las opciones de compresión y descompresión.
+Configure las Configuraciones: Incluya subdirectorios, decida sobre la eliminación de archivos originales y seleccione métodos de compresión según sea necesario.
+Elija la Carpeta: Navegue y seleccione la carpeta que contiene los archivos FITS.
+Inicie la Operación: Inicie el proceso de compresión o descompresión.
 
-Folder Naming Warning: Due to Fpack and Funpack limitations, please avoid using special characters like parentheses (()) in folder names where compression and decompression operations will be performed. The presence of these characters in folder paths may lead to unintended behavior or errors during the compression and decompression processes. OAA Pack operates within the constraints of the underlying operating systems and file systems. Particularly on Windows, there is a traditional maximum path length limit of 260 characters. This limit encompasses the entire path from the drive letter through all folders to the file name. If the total path length of a file exceeds this limit, OAA-pack might fail to process it. Users are advised to keep their file and folder names reasonably short to avoid such issues, especially when working with nested directories
+Descargo de Responsabilidad y Licencia
+Este software se proporciona "tal cual", sin garantía expresa o implícita. El autor no será responsable de ningún daño o pérdida de datos derivados de su uso.
 
-Contributing
-Contributions are welcome! If you wish to improve or add new features, please ensure the original author of OAA Pack is credited. Contributions should respect the licenses of Fpack, Funpack, and Gzip.
+OAA Pack es de código abierto, distribuido bajo la licencia Attribution-ShareAlike (CC BY-SA). Se permite la redistribución, comercial y no comercial, siempre que se otorgue el crédito apropiado al autor original. Es crucial respetar las licencias de las utilidades Fpack, Funpack y Gzip.
 
-Acknowledgements
-Thanks to the creators of Fpack, Funpack, and Gzip for their foundational work. A special acknowledgment to ChatGPT at OpenAI for the invaluable assistance provided in developing this software.
+Advertencia sobre Nombres de Carpetas: Debido a las limitaciones de Fpack y Funpack, evite utilizar caracteres especiales como paréntesis (()) en los nombres de carpetas donde se realizarán operaciones de compresión y descompresión. La presencia de estos caracteres en las rutas de las carpetas puede llevar a un comportamiento no deseado o errores durante los procesos de compresión y descompresión. OAA Pack opera dentro de las restricciones de los sistemas operativos y sistemas de archivos subyacentes. Particularmente en Windows, hay un límite máximo tradicional de longitud de ruta de 260 caracteres. Este límite abarca toda la ruta desde la letra del disco a través de todas las carpetas hasta el nombre del archivo. Si la longitud total de la ruta de un archivo excede este límite, OAA-pack podría fallar en procesarlo. Se aconseja a los usuarios mantener sus nombres de archivos y carpetas razonablemente cortos para evitar tales problemas, especialmente al trabajar con directorios anidados.
 
-Contact
-For inquiries, suggestions, or contributions, contact the original author at director@observatorialbanya.com
+Contribuciones
+¡Las contribuciones son bienvenidas! Si desea mejorar o agregar nuevas funciones, asegúrese de dar crédito al autor original de OAA Pack. Las contribuciones deben respetar las licencias de Fpack, Funpack y Gzip.
+
+Agradecimientos
+Gracias a los creadores de Fpack, Funpack y Gzip por su trabajo fundamental. Un agradecimiento especial a ChatGPT en OpenAI por la asistencia invaluable proporcionada en el desarrollo de este software.
+
+Contacto
+Para consultas, sugerencias o contribuciones, contacte al autor original en director@observatorialbanya.com

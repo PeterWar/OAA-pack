@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\OAA\\source\\repos\\OAA-NET\\OAA-NET\\OAA-pack.csproj": {}
+    "C:\\Users\\OAA\\source\\repos\\OAA-pack_ESP\\OAA-pack\\OAA-pack.csproj": {}
   },
   "projects": {
-    "C:\\Users\\OAA\\source\\repos\\OAA-NET\\OAA-NET\\OAA-pack.csproj": {
+    "C:\\Users\\OAA\\source\\repos\\OAA-pack_ESP\\OAA-pack\\OAA-pack.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\OAA\\source\\repos\\OAA-NET\\OAA-NET\\OAA-pack.csproj",
+        "projectUniqueName": "C:\\Users\\OAA\\source\\repos\\OAA-pack_ESP\\OAA-pack\\OAA-pack.csproj",
         "projectName": "OAA-pack",
-        "projectPath": "C:\\Users\\OAA\\source\\repos\\OAA-NET\\OAA-NET\\OAA-pack.csproj",
+        "projectPath": "C:\\Users\\OAA\\source\\repos\\OAA-pack_ESP\\OAA-pack\\OAA-pack.csproj",
         "packagesPath": "C:\\Users\\OAA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\OAA\\source\\repos\\OAA-NET\\OAA-NET\\obj\\",
+        "outputPath": "C:\\Users\\OAA\\source\\repos\\OAA-pack_ESP\\OAA-pack\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

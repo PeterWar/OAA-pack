@@ -65,7 +65,7 @@
             button1.Name = "button1";
             button1.Size = new Size(192, 27);
             button1.TabIndex = 0;
-            button1.Text = "Select folder to compress";
+            button1.Text = "Seleccionar carpeta a comprimir";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
@@ -87,9 +87,9 @@
             label1.Location = new Point(8, 5);
             label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(533, 15);
+            label1.Size = new Size(590, 15);
             label1.TabIndex = 1;
-            label1.Text = "OAA-pack provides a GUI to advanced methods of compression and decompression of FIT files.";
+            label1.Text = "OAA-pack proporciona una GUI con métodos avanzados de compresión y decompresión para archivos FIT.";
             label1.Click += label1_Click;
             // 
             // button2
@@ -97,9 +97,9 @@
             button2.Location = new Point(214, 61);
             button2.Margin = new Padding(4, 3, 4, 3);
             button2.Name = "button2";
-            button2.Size = new Size(189, 27);
+            button2.Size = new Size(203, 27);
             button2.TabIndex = 2;
-            button2.Text = "Select folder to decompress";
+            button2.Text = "Seleccionar carpeta a descomprimir";
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
@@ -118,22 +118,22 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(366, 461);
+            label2.Location = new Point(380, 461);
             label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
-            label2.Size = new Size(185, 15);
+            label2.Size = new Size(171, 15);
             label2.TabIndex = 4;
-            label2.Text = "NASA fpack and funpack website:";
+            label2.Text = "Web de NASA fpack y funpack:";
             label2.Click += label2_Click;
             // 
             // label3
             // 
             label3.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label3.Location = new Point(231, 379);
+            label3.Location = new Point(230, 351);
             label3.Margin = new Padding(4, 0, 4, 0);
             label3.Name = "label3";
             label3.RightToLeft = RightToLeft.No;
-            label3.Size = new Size(550, 62);
+            label3.Size = new Size(550, 109);
             label3.TabIndex = 5;
             label3.Text = resources.GetString("label3.Text");
             label3.Click += label3_Click;
@@ -156,9 +156,9 @@
             chkIncludeSubdirectories.Location = new Point(14, 34);
             chkIncludeSubdirectories.Margin = new Padding(4, 3, 4, 3);
             chkIncludeSubdirectories.Name = "chkIncludeSubdirectories";
-            chkIncludeSubdirectories.Size = new Size(142, 19);
+            chkIncludeSubdirectories.Size = new Size(137, 19);
             chkIncludeSubdirectories.TabIndex = 8;
-            chkIncludeSubdirectories.Text = "Include subdirectories";
+            chkIncludeSubdirectories.Text = "Incluir subdirectorios";
             chkIncludeSubdirectories.UseVisualStyleBackColor = true;
             chkIncludeSubdirectories.CheckedChanged += chkIncludeSubdirectories_CheckedChanged;
             // 
@@ -187,34 +187,34 @@
             chkDeleteOriginal.AutoSize = true;
             chkDeleteOriginal.Checked = true;
             chkDeleteOriginal.CheckState = CheckState.Checked;
-            chkDeleteOriginal.Location = new Point(172, 34);
+            chkDeleteOriginal.Location = new Point(159, 34);
             chkDeleteOriginal.Margin = new Padding(4, 3, 4, 3);
             chkDeleteOriginal.Name = "chkDeleteOriginal";
-            chkDeleteOriginal.Size = new Size(107, 19);
+            chkDeleteOriginal.Size = new Size(112, 19);
             chkDeleteOriginal.TabIndex = 10;
-            chkDeleteOriginal.Text = "Delete originals";
+            chkDeleteOriginal.Text = "Borrar originales";
             chkDeleteOriginal.UseVisualStyleBackColor = true;
             chkDeleteOriginal.CheckedChanged += chkDeleteOriginal_CheckedChanged;
             // 
             // chkFilterByKeyword
             // 
             chkFilterByKeyword.AutoSize = true;
-            chkFilterByKeyword.Location = new Point(293, 34);
+            chkFilterByKeyword.Location = new Point(300, 34);
             chkFilterByKeyword.Margin = new Padding(4, 3, 4, 3);
             chkFilterByKeyword.Name = "chkFilterByKeyword";
-            chkFilterByKeyword.Size = new Size(160, 19);
+            chkFilterByKeyword.Size = new Size(215, 19);
             chkFilterByKeyword.TabIndex = 11;
-            chkFilterByKeyword.Text = "For filenames containing:";
+            chkFilterByKeyword.Text = "Nombres de archivo que contienen:";
             chkFilterByKeyword.UseVisualStyleBackColor = true;
             chkFilterByKeyword.CheckedChanged += checkBox1_CheckedChanged;
             // 
             // txtKeyword
             // 
             txtKeyword.Enabled = false;
-            txtKeyword.Location = new Point(461, 32);
+            txtKeyword.Location = new Point(515, 32);
             txtKeyword.Margin = new Padding(4, 3, 4, 3);
             txtKeyword.Name = "txtKeyword";
-            txtKeyword.Size = new Size(292, 23);
+            txtKeyword.Size = new Size(257, 23);
             txtKeyword.TabIndex = 12;
             // 
             // btnStop
@@ -233,13 +233,13 @@
             rdoIncludeFiles.AutoSize = true;
             rdoIncludeFiles.Checked = true;
             rdoIncludeFiles.Enabled = false;
-            rdoIncludeFiles.Location = new Point(461, 62);
+            rdoIncludeFiles.Location = new Point(443, 62);
             rdoIncludeFiles.Margin = new Padding(4, 3, 4, 3);
             rdoIncludeFiles.Name = "rdoIncludeFiles";
-            rdoIncludeFiles.Size = new Size(145, 19);
+            rdoIncludeFiles.Size = new Size(195, 19);
             rdoIncludeFiles.TabIndex = 16;
             rdoIncludeFiles.TabStop = true;
-            rdoIncludeFiles.Text = "Run only for these files";
+            rdoIncludeFiles.Text = "Ejecutar solo para estos archivos";
             rdoIncludeFiles.UseVisualStyleBackColor = true;
             rdoIncludeFiles.CheckedChanged += radioButton1_CheckedChanged;
             // 
@@ -247,12 +247,12 @@
             // 
             rdoExcludeFiles.AutoSize = true;
             rdoExcludeFiles.Enabled = false;
-            rdoExcludeFiles.Location = new Point(622, 62);
+            rdoExcludeFiles.Location = new Point(640, 62);
             rdoExcludeFiles.Margin = new Padding(4, 3, 4, 3);
             rdoExcludeFiles.Name = "rdoExcludeFiles";
-            rdoExcludeFiles.Size = new Size(121, 19);
+            rdoExcludeFiles.Size = new Size(137, 19);
             rdoExcludeFiles.TabIndex = 17;
-            rdoExcludeFiles.Text = "Exclude these files";
+            rdoExcludeFiles.Text = "Excluir estos archivos";
             rdoExcludeFiles.UseVisualStyleBackColor = true;
             rdoExcludeFiles.CheckedChanged += checkBox1_CheckedChanged;
             // 
@@ -274,9 +274,9 @@
             chkIRAF.Location = new Point(332, 290);
             chkIRAF.Margin = new Padding(4, 3, 4, 3);
             chkIRAF.Name = "chkIRAF";
-            chkIRAF.Size = new Size(123, 19);
+            chkIRAF.Size = new Size(50, 19);
             chkIRAF.TabIndex = 19;
-            chkIRAF.Text = "IRAF Compression";
+            chkIRAF.Text = "IRAF";
             chkIRAF.UseVisualStyleBackColor = true;
             chkIRAF.CheckedChanged += chkIRAF_CheckedChanged;
             // 
@@ -287,9 +287,9 @@
             label5.Location = new Point(228, 270);
             label5.Margin = new Padding(4, 0, 4, 0);
             label5.Name = "label5";
-            label5.Size = new Size(205, 15);
+            label5.Size = new Size(201, 15);
             label5.TabIndex = 20;
-            label5.Text = "Advanced methods of compression:";
+            label5.Text = "Métodos avanzados de compresión";
             label5.Click += label5_Click;
             // 
             // numericUpDown1
@@ -304,12 +304,12 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(552, 317);
+            label6.Location = new Point(545, 317);
             label6.Margin = new Padding(4, 0, 4, 0);
             label6.Name = "label6";
-            label6.Size = new Size(151, 15);
+            label6.Size = new Size(159, 15);
             label6.TabIndex = 22;
-            label6.Text = "Timeout for each operation";
+            label6.Text = "Timeout por cada operación:";
             label6.Click += label6_Click;
             // 
             // Form1

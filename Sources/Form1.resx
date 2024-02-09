@@ -825,7 +825,7 @@
 </value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Disclaimer: Developed by Pere Guerra (Observatori Astronòmic Albanyà), this software is provided as-is, without warranty.  It is based on Fpack, Funpack and Gzip.  Fpack, Funpack and Gzip are products of their authors and should be used under their terms and conditions.</value>
+    <value>Descargo de responsabilidad: Este software se proporciona 'tal cual', sin ninguna garantía expresa o implícita. En ningún caso los autores serán responsables de cualquier pérdida de datos o daños derivados del uso de este software.OAA-pack es un software creado por Pere Guerra (Observatori Astronòmic Albanyà). Está basado en Fpack, Funpack y Gzip. Fpack, Funpack y Gzip son productos de sus respectivos autores y se utilizan bajo sus términos y condiciones.</value>
   </data>
   <metadata name="backgroundWorker1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>184, 17</value>
