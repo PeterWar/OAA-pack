@@ -1,0 +1,10 @@
+C:\Users\OAA\source\repos\Recovery3\OAA-packVX\Recovery\bin\Release\OAA-pack.exe.config
+C:\Users\OAA\source\repos\Recovery3\OAA-packVX\Recovery\bin\Release\OAA-pack.exe
+C:\Users\OAA\source\repos\Recovery3\OAA-packVX\Recovery\bin\Release\OAA-pack.pdb
+C:\Users\OAA\source\repos\Recovery3\OAA-packVX\Recovery\obj\Release\Recovery.csproj.AssemblyReference.cache
+C:\Users\OAA\source\repos\Recovery3\OAA-packVX\Recovery\obj\Release\FpackCompressor.Form1.resources
+C:\Users\OAA\source\repos\Recovery3\OAA-packVX\Recovery\obj\Release\Recovery.Properties.Resources.resources
+C:\Users\OAA\source\repos\Recovery3\OAA-packVX\Recovery\obj\Release\Recovery.csproj.GenerateResource.cache
+C:\Users\OAA\source\repos\Recovery3\OAA-packVX\Recovery\obj\Release\Recovery.csproj.CoreCompileInputs.cache
+C:\Users\OAA\source\repos\Recovery3\OAA-packVX\Recovery\obj\Release\OAA-pack.exe
+C:\Users\OAA\source\repos\Recovery3\OAA-packVX\Recovery\obj\Release\OAA-pack.pdb
