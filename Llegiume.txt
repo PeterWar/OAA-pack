@@ -1,0 +1,36 @@
+Visió General
+OAA Pack és una eina de programari especialitzada creada per Pere Guerra (Observatori Astronòmic Albanyà) dissenyada per a la compressió i descompressió d'arxius FIT, oferint una interfície gràfica amigable per a l'usuari. Utilitza el poder de les utilitats Fpack, Funpack i Gzip per oferir mètodes avançats de compressió.
+
+Característiques
+Compressió i Descompressió: Facilita la compressió d'arxius FITS utilitzant Fpack i la descompressió utilitzant Funpack.
+Opcions Avançades de Compressió: Incorpora tècniques de compressió HCompress i de llista de píxels IRAF per a una major eficiència.
+Compressió sense Pèrdua: Dissenyat per a la compressió sense pèrdua. En escenaris on l'única opció és la compressió amb pèrdua de Fpack (per exemple, amb arxius de 32 bits), s'utilitza GZIP com a alternativa.
+Interfície Amigable: Simplifica la gestió d'arxius a través d'una interfície intuïtiva.
+Configuració Personalitzable: Inclou opcions per incloure subdirectoris, optar per l'eliminació d'arxius originals després de la compressió i filtrar arxius per paraules clau.
+Timeout Adaptable: Personalitza la durada del timeout per a cada operació segons les necessitats de processament.
+
+Instal·lació
+Desempaqueteu el contingut del paquet de distribució d'OAA Pack al directori de la vostra preferència.
+Executeu l'arxiu executable per iniciar l'aplicació.
+
+Ús
+Seleccioneu l'Operació: Trieu entre les opcions de compressió i descompressió.
+Configureu les Configuracions: Inclogui subdirectoris, decideixi sobre l'eliminació d'arxius originals i seleccioneu mètodes de compressió segons sigui necessari.
+Trieu la Carpeta: Navegueu i seleccioneu la carpeta que conté els arxius FITS.
+Inicieu l'Operació: Inicieu el procés de compressió o descompressió.
+
+Descàrrec de Responsabilitat i Llicència
+Aquest programari es proporciona "tal com està", sense garantia expressa o implícita. L'autor no serà responsable de cap dany o pèrdua de dades derivats del seu ús.
+
+OAA Pack és de codi obert, distribuït sota la llicència Attribution-ShareAlike (CC BY-SA). Es permet la redistribució, comercial i no comercial, sempre que es concedeixi el crèdit apropiat a l'autor original. És crucial respectar les llicències de les utilitats Fpack, Funpack i Gzip.
+
+Advertència sobre Noms de Carpetes: A causa de les limitacions de Fpack i Funpack, eviteu utilitzar caràcters especials com parèntesis (()) en els noms de carpetes on es realitzaran operacions de compressió i descompressió. La presència d'aquests caràcters en les rutes de les carpetes pot portar a un comportament no desitjat o errors durant els processos de compressió i descompressió. OAA Pack opera dins de les restriccions dels sistemes operatius i sistemes d'arxius subjacents. Particularment en Windows, hi ha un límit màxim tradicional de longitud de ruta de 260 caràcters. Aquest límit abasta tota la ruta des de la lletra del disc a través de totes les carpetes fins al nom de l'arxiu. Si la longitud total de la ruta d'un arxiu excedeix aquest límit, OAA-pack podria fallar en processar-lo. S'aconsella als usuaris mantenir els seus noms d'arxius i carpetes raonablement curts per evitar tals problemes, especialment quan treballen amb directoris niats.
+
+Contribucions
+Les contribucions són benvingudes! Si desitja millorar o afegir noves funcions, assegureu-vos de donar crèdit a l'autor original de l'OAA Pack. Les contribucions han de respectar les llicències de Fpack, Funpack i Gzip.
+
+Agraïments
+Gràcies als creadors de Fpack, Funpack i Gzip pel seu treball fonamental. Un agraïment especial a ChatGPT d'OpenAI per l'assistència inestimable proporcionada en el desenvolupament d'aquest programari.
+
+Contacte
+Per a consultes, suggeriments o contribucions, contacteu amb l'autor original a director@observatorialbanya.com.
